@@ -1,5 +1,6 @@
+
 from selenium import webdriver
-driver = webdriver.Chrome(r'C:/Users/South/chromedriver.exe')
+driver = webdriver.Chrome(r'C:/Apps/chromedriver.exe')
 
 def getHint(word):
         driver.get("https://www.the-crossword-solver.com/word/"+word)
@@ -18,5 +19,3 @@ try:
 		
 except Exception as e:
 	print(e)
-
-
